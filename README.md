@@ -41,14 +41,26 @@ Jeszcze kilka/kilkanaście lat temu znaczna część producentów traktowała po
 Wiele gier, które mają premierę na Windowsie, nigdy nie dostaje portu na Linuxa lecz. Ten problem jest częściowo rozwiązany przez D9VK oraz DXVK, które umożliwia translację odwołań DirectX 9, 10 i 11 na multiplatformowy Vulkan, zapewniając przeważnie 70%-80% wydajności(ciągle są ulepszane). Zdarza się, że starsze gry, które nie wcale uruchamiają się na Windowsie lub działają z błędami, uruchamiają się bez problemów na Linuxie.
 * Na Linuxa nie ma komercyjnych programów - CZĘŚCIOWO PRAWDA
 * W Linuxie trzeba korzystać z konsoli - FAŁSZ
+Znaczna część dystrybucji, a w szczególności te bazujące na Ubuntu(np. KDE Neon, Linux Mint), zdolna jest obsługi systemu bez konieczności używania terminala. Trzeba jednak dodać, że znajomość podstawowych komend w terminalu, chociaż wydaje się nieco przytłaczająca dla nowych użytkowników, pozwala na sprawniejsze korzystanie z systemu.
 
-## Dystrybucje
+## Dystrybucje, wydania LTS, dystrybucja ciągłe i cykliczne
+
+Podstawowym zagadnieniem, na który natkniesz się jest słowo __Dystrybucja__, które oznacza system operacyjny z jądrem Linuxa. Dystrybucje mogą od siebie wywodzić, dzięki czemu przejmują część z ich właściwości. Takim przykładem jest Linux Mint, który wywodzi się od Ubuntu, który to natomiast pochodzi  od Debiana.
+
+Ważną dla wielu użytkowników, jest posiadanie przez niektóre dystrybucje __Wydań LTS__. Takie wydania są wspierane np. w Ubuntu i Linux Mint 5 lub 3 Lata w zależności od wersji, podczas gdy zwykłe wydania są wspierane jedynie przez 9 miesięcy.
+
+W świecie Linuxa panuje podział na dwa typy dystrybucji, ciągłą i cykliczną.
+* Dystrybucja Ciągła - Oferuje najnowsze dostępne aktualizacje, lecz nowsze wersje programów mogą powodować różne problemy, nawet takie jak niemożność uruchomienia systemu. Przykładami takich dystrybucji są: Arch Linux czy Manjaro.
+* Dystrybucja Cykliczna -  Przykładami takich dystrybucji są: Ubuntu, Linux Mint, Fedora
 
 
-W tej instrukcji posłużę się bardzo przyjazną dystrybucją Kubuntu z KDE Plasma 5.
+
+
 
 ## Tworzenie Bootowalnego Pendriva
-Na początek musimy pobrać obraz systemu ze strony. Zalecam skorzystanie z pliku torrent, oraz wolnego i otwartego programu [QBittorrent](), dzięki czemu będziemy mogli ściągnąć plik ISO całą szerokością łącza.
+W tej instrukcji posłużę się bardzo przyjazną dystrybucją Kubuntu 18.04.2 LTS z KDE Plasma 5.  
+Aby pobrać system w postaci pliku torrent, należy pobrać również oprogramowanie zdolne do jego uruchomienia. [Link do pobrania systemu jako Torrent(zalecany)](http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.2-desktop-amd64.iso.torrent) oraz [Link do pobrania programu Qbittorrent](https://www.qbittorrent.org/download.php).  
+Istnieje również [bezpośredni link do pobrania systemu](http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.2-desktop-amd64.iso).
 
 Potrzebujemy przygotować pendrive z minimalnym rozmiarem 4GB, by można było uruchomić z niego system.
 Część z systemów po wypakowaniu pliku ISO na pendriva powinna działać, lecz my skorzystamy na Windowsie z programu Rufus a alternatywnie możemy skorzystać z programu Etcher wspierającego również Linuxa
