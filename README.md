@@ -40,6 +40,7 @@ Jeszcze kilka/kilkanaście lat temu znaczna część producentów traktowała po
 * Linux nie jest dobrym systemem dla graczy - CZĘŚCIOWO PRAWDA
 Wiele gier, które mają premierę na Windowsie, nigdy nie dostaje portu na Linuxa lecz. Ten problem jest częściowo rozwiązany przez D9VK oraz DXVK, które umożliwia translację odwołań DirectX 9, 10 i 11 na multiplatformowy Vulkan, zapewniając przeważnie 70%-80% wydajności(ciągle są ulepszane). Zdarza się, że starsze gry, które nie wcale uruchamiają się na Windowsie lub działają z błędami, uruchamiają się bez problemów na Linuxie.
 * Na Linuxa nie ma komercyjnych programów - CZĘŚCIOWO PRAWDA
+Część producentów oprogramowania omija szerokim łukiem Linuxa, mimo, że niektóre firmy pokroju Autodesk od całkiem dawna tworzą oprogramowanie na ten system.
 * W Linuxie trzeba korzystać z konsoli - FAŁSZ
 Znaczna część dystrybucji, a w szczególności te bazujące na Ubuntu(np. KDE Neon, Linux Mint), zdolna jest obsługi systemu bez konieczności używania terminala. Trzeba jednak dodać, że znajomość podstawowych komend w terminalu, chociaż wydaje się nieco przytłaczająca dla nowych użytkowników, pozwala na sprawniejsze korzystanie z systemu.
 
@@ -86,11 +87,11 @@ Potem łączymy się z siecią bezprzewodową(sieć przewodowa połączy się au
 
 W następnym menu wybieramy menu insta
 ## Konfiguracja
-Tekst został przygotowany na systemie Kubuntu z KDE Plasma 5
+
 
 ## Granie na linuxie
 Jak już wcześniej wspominałem granie na Linuxie jest możliwe mimo pewnych niedogodności.
-Do retro gier i gier niewymagających dużej mocy obliczeniowej zwykle nie potrzeba nic instalować oprócz Wine
+Do retro gier i gier niewymagających dużej mocy obliczeniowej zwykle nie potrzeba nic instalować oprócz Wine dostępnego w repozytorium lub poprzez Lutris.
 
 
 ## Jak Pomóc?
@@ -108,3 +109,5 @@ Do retro gier i gier niewymagających dużej mocy obliczeniowej zwykle nie potrz
 * __Terminal__ - Program w którym komendy wpisywane są w formie tekstowej
 * __System Operacyjny__ -
 * __Dystrybucja__ -
+* __Lutris__ -
+* __Repozytorium__ -
