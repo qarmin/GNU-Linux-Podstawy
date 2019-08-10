@@ -1,12 +1,19 @@
-# GNU/Linux Podstawy
+aktualizacja# GNU/Linux Podstawy
 
 ### Spis Treści
 1. [Informacje o repozytorium](#informacje-o-repozytorium)
-2. [Jak Pomóc?](#jak-pomóc)  
-3. [Podstawowe informacje](#podstawowe-informacje)
-4. [Instalacja Linuxa](#instalacja-linuxa)
-5. [Granie na Linuxie](#granie-na-linuxie)  
-6. [Słowniczek](#słowniczek)  
+2. [Podstawowe informacje](#podstawowe-informacje)  
+3. [Czy Linux będzie dla mnie odpowiedni?](#czy-linux-będzie-dla-mnie-odpowiedni)
+4. [Mity i Fakty](#mity-i-fakty)
+5. [Dystrybucje, wydania LTS, dystrybucja ciągłe i cykliczne](#mity-i-fakty)
+6. [Tworzenie Bootowalnego Pendriva](#tworzenie-bootowalnego-pendriva)
+7. [Instalacja i Testowanie](#instalacja-i-testowanie)
+8. [Konfiguracja Systemu](#konfiguracja-systemu)
+9. [Granie na Linuxie](#granie-na-linuxie)
+10 [Jak Pomóc](#jak-pomóc)
+11. [Słowniczek](#słowniczek)  
+12. [Strony gdzie można znaleźć pomoc](#strony-fora-działy-i-tagi-związane-z-tematyką-linuxa-gdzie-możecie-znaleźć-pomoc)
+13. [Zaawansowane strony z materiałami do nauki](#zaawansowane-strony-z-materiałami-do-nauki)
 
 ### Informacje o repozytorium
 Ta instrukcja zawiera podstawowe informacje o systemie GNU/Linux, jego zastosowaniach, instalacji, podstawowej konfiguracji oraz użytkowaniu.
@@ -17,35 +24,38 @@ Jest ona przeznaczona dla początkujących osób, chcących zacząć przygodę z
 GNU/Linux jest uniksopodobnym systemem operacyjnym korzystającym z jądra Linux. Jądro to jest najważniejszą składową systemu operacyjnego, mającym pełną kontrolę nad tym urządzeniem.
 W przeciwieństwie do Windowsa nie istnieją w nim litery dysków, wszystkie foldery i pliki znajdują się w głównym katalogu / i np. pulpit użytkownika qarmin znajduje się w lokalizacji /home/qarmin/Pulpit
 
-### Dla kogo Linux?
+### Czy Linux będzie dla mnie odpowiedni?
 
-Linux z racji swojej budowy i modelu licencjonowania nadaje się przede wszystkim dla:
-* ludzi dbających o swoją prywatność
-* ludzi troszczących się o swoje bezpieczeństwo w sieci
+Linux z racji swojej budowy i modelu licencjonowania nadaje się dla:
+* dbających o swoją prywatność
+* troszczących się o swoje bezpieczeństwo w sieci
 * programistów
 * zarządzających sieciami komputerowymi
 * zwykłych użytkowników
 * retro i niedzielnych graczy
 * graczy, którym nie straszne są wyzwania
+* ludzi, którzy nie chcą wydawać pieniędzy na system operacyjny
 
 Mimo wszystko istnieją takie grupy użytkowników, dla których Linux jako główny system po prostu nie nadaje się:
 * hardcorowi gracze dla których liczy się każda klatka
 * użytkownicy korzystający z oprogramowania nieistniejącego na Linuxie lub niepoprawnie działającego poprzez WINE
 
-Dla tych wszystkich osób, które nie mogą zainstalować Linuxa jako główny system, zachęcam do jego instalacji w trybie dualboot obok Windowsa
-
 ### Mity i fakty
 Wiele nieprawdziwych i przestarzałych informacji krąży na temat Linuxa
 
-* Sterowniki na Linuxa są tragicznej jakości - FAŁSZ  
+* **Sterowniki na Linuxa są tragicznej jakości** - FAŁSZ  
 Jeszcze kilka/kilkanaście lat temu znaczna część producentów traktowała po macoszemu Linuxa i wydawane przez nich sterowniki były zamknięte oraz czasami słabej jakości. Dzisiaj większość producentów dostarcza kod swoich sterowników razem z kernelem, dzięki czemu razem ze wsparciem społeczności firmy takie jak Intel czy AMD, przygotowują lepsze sterowniki niż na Windowsie, często obsługujące wyższe wersje OpenGL i Vulkan.
-* Linux nie jest dobrym systemem dla graczy - PRAWDA(Lecz zmienia się to coraz bardziej)  
+
+* **Linux nie jest dobrym systemem dla graczy** - PRAWDA(Lecz zmienia się to coraz bardziej)  
 Wiele gier, które mają premierę na Windowsie, nigdy nie dostaje portu na Linuxa lecz. Ten problem jest częściowo rozwiązany przez D9VK, DXVK oraz VKD3D, które umożliwiają translację odwołań DirectX 9, 10, 11 i 12 na multiplatformowy Vulkan, zapewniając przeważnie 70% - 90% wydajności, a niekiedy wydajność na Linuxie jest większa z powodu mniejszego narzutu sterowników. Zdarza się, że starsze gry, które nie wcale uruchamiają się na Windowsie lub działają z błędami, uruchamiają się bez problemów na Linuxie.
-* Na Linuxa nie ma wcale komercyjnych programów - FAŁSZ  
+
+* **Na Linuxa nie ma wcale komercyjnych programów** - FAŁSZ  
 Część producentów oprogramowania omija szerokim łukiem Linuxa, mimo, że niektóre firmy pokroju Autodesk od całkiem dawna tworzą oprogramowanie na ten system.
-* W Linuxie trzeba korzystać z konsoli - FAŁSZ  
+
+* **W Linuxie trzeba korzystać z konsoli** - FAŁSZ  
 Znaczna część dystrybucji, a w szczególności te bazujące na Ubuntu(np. KDE Neon, Linux Mint), zdolna jest obsługi systemu bez konieczności używania terminala. Trzeba jednak dodać, że znajomość podstawowych komend w terminalu, chociaż wydaje się nieco przytłaczająca dla nowych użytkowników, pozwala na sprawniejsze korzystanie z systemu.
-* Na Linuxa nie ma wirusów - FAŁSZ
+
+* **Na Linuxa nie ma wirusów** - FAŁSZ
 Zwykły użytkownik Linuxa, prawdopodobnie nigdy nie spotka się z wirusem ponieważ tworzone robaki na ten system zwykle są dedykowane serwerom, gdyż na rynku komputerów Linux posiada jedynie niewielki procent rynku. Dodatkowo, zainstalowanie robaka w systemie wymagałoby świadomego wpisania hasła.  
 
 ### Dystrybucje, wydania LTS, dystrybucja ciągłe i cykliczne
@@ -55,11 +65,11 @@ Podstawowym zagadnieniem, na który natkniesz się jest słowo __Dystrybucja__, 
 Ważną dla wielu użytkowników, jest posiadanie przez niektóre dystrybucje __Wydań LTS__. Takie wydania są wspierane np. w Ubuntu i Linux Mint 5 lub 3 Lata w zależności od wersji, podczas gdy zwykłe wydania są wspierane jedynie przez 9 miesięcy.
 
 W świecie Linuxa panuje podział na dwa typy dystrybucji, ciągłą i cykliczną.
-* Dystrybucja Ciągła - Oferuje najnowsze dostępne aktualizacje, lecz nowsze wersje programów mogą powodować różne problemy, nawet takie jak niemożność uruchomienia systemu. Przykładami takich dystrybucji są: Arch Linux czy Manjaro.
-* Dystrybucja Cykliczna -  Przykładami takich dystrybucji są: Ubuntu, Linux Mint, Fedora
+* **Dystrybucja Ciągła** - Oferuje najnowsze dostępne programy i funkcje, lecz czasami nowsze wersje pakietów mogą powodować niestabilność systemu lub jego całkowite uszkodzenie. Korzystając z takich dystrybucji jest niemal konieczne posiadanie kopii zapasowej. Przykładami takich dystrybucji są: Arch Linux czy Manjaro.
+* **Dystrybucja Cykliczna** -  Kolejne wersje systemu wydawane są co określony czas. Aktualizacje dotykają jedynie podstawowych pakietów i często dotyczą jedynie poprawek bezpieczeństwa. Przykładami takich dystrybucji są: Ubuntu, Linux Mint, Fedora
 
 ### Tworzenie Bootowalnego Pendriva
-W tej instrukcji posłużę się bardzo przyjazną dystrybucją dla początkujących i nie tylko - KDE Neon z KDE Plasma 5.  
+W tej instrukcji posłużę się bardzo przyjazną dystrybucją dla początkujących i nie tylko - KDE Neon z KDE Plasma 5 bazującym na Ubuntu 18.04.  
 Najnowszą dostępną wersję systemu należy [pobrać tutaj](https://files.kde.org/neon/images/user/current/neon-user-current.iso).
 
 Potrzebujemy przygotować pendrive z minimalnym rozmiarem 4GB, by można było uruchomić z niego system.  
@@ -70,10 +80,11 @@ Potem klikamy na *Select target*, aby wybrać pendrive na który chcemy zrzucić
 **UWAGA - wszystkie dane zawarte na pendrive zostaną skasowane**
 Na koniec naciskamy Flash by rozpocząć proces wgrywania plików na pendriva.
 ### Testowanie na maszynie wirtualna czy może na sprzęcie?
-Testowanie systemu może odbyć się w dwóch trybach:
-* w maszynie wirtualnej(przydatne przy sprawdzaniu wyglądu i funkcji)
-* na sprzęcie(przydatne do sprawdzania jak radzi sobie system na urządzeniu)
-Uważam, że najlepiej jest sprawdzić Linuxa na "żywym" sprzęcie, gdyż da to nam informacje czy na takiej konfiguracji, nie występują żadne problemy
+Testowanie systemu może mieć miejsce na:
+* **Maszynie Wirtualnej** - System instalujemy, w programie typu VirtualBox, który umożliwia nam bezpieczne przetestowanie systemu.  
+Plusem takiego rozwiązania, jest szybka możliwość przetestowania nawet wielu dystrybucji.
+Minusem jednak jest konieczność posiadania dobrego komputera, umożliwiającego uruchomienie dodatkowego systemu. Dodatkowo testując go na maszynie wirtualnej, nie mamy pewności jak dokładnie system będzie działał i czy będzie posiadał jakiekolwiek problemy
+* **Na Sprzęcie** - System uruchamiamy z pendriva w trybie LiveCD, umożliwiającym nam dokładne przetestowanie systemu, bez konieczności jego instalacji.
 
 ### Instalacja i Testowanie
 Po pierwsze musimy uruchomić system z pendriva, lecz sposób wejścia do Boot Menu jest zależny od posiadanej płyty głównej. Informacja powinna być podana na ekranie podczas włączania komputera, instrukcji lub na stronie płyty głównej. Często są to klawisze F2, F8, F9, F10, F11, F12 czy ESC, więc można eksperymentować, dopóki nie naciśnie się odpowiedniego klawisza/kombinacji klawiszy.  
@@ -145,23 +156,35 @@ KDE Plasma przywraca sesję po ponownym uruchomieniu komputera, która to przywr
 Aby dodać pełne wsparcie dla języka polskiego, należy w ustawieniach systemowych w zakładce *Ustawienia regionalne* -> *Język* dodać język polski, zatwierdzić zmiany oraz wylogować się//uruchomić ponownie komputera
 #### Instalacja Programów
 Aby zainstalować różne aplikacje, należy skorzystać z programu *Odkrywca*, który można znaleźć w Aktywatorze programów.
-Listę dostępnego darmowego oprogramowania znajdziesz tutaj [Rewelacyjne OpenSource](https://github.com/qarmin/Rewelacyjne-OpenSource) 
-
+Listę dostępnego darmowego oprogramowania znajdziesz tutaj [Rewelacyjne OpenSource](https://github.com/qarmin/Rewelacyjne-OpenSource)
 #### Aktualizacja systemu i Programów
+Podstawą bezpiecznego systemu jest jego częste aktualizowanie.
+W Linuxie aktualizacja systemu jest powiązana z aktualizacją programów, dzięki czemu nie będziemy posiadać niebezpiecznego nieaktualnego oprogramowania.
+Aby zaktualizować system musimy najpierw otworzyć program *Odkrywca*, który otwieramy poprzez Aktywator Programów. Następnie przechodzimy do zakładki *Uaktualnienia* znajdującej się w lewym dolnym rogu programu.
+Po odczekaniu chwili potrzebnej na pobranie informacji na temat dostępnych aktualizacji, należy w prawym górnym rogu nacisnąć na przycisk *Uaktualnij wszystko*
+Będziemy musieli podać hasło do konta, aby umożliwić instalacje pakietów.
+**UWAGA - Zalecane jest, aby uruchomić ponownie komputer po aktualizacji, aby uniknąć niepożądanych zachowań systemu**
+**UWAGA - Aktualizację systemu powinno się wykonywać co najmniej 1 raz w miesiącu(im częściej, tym lepiej)**
+#### Sterowniki do karty graficznej
+Intel oraz AMD domyślnie posiadają sterowniki do swoich kart graficznych w bilbiotece graficznej Mesa, dostępnej domyślnie na większości dystrybucji, w tym w KDE Neon.
 
+Do kart Nvidii również został przygotowany otwartoźródłowy sterownik *nouveau*, lecz poprzez szereg decyzji Nvidii, mających na celu zablokowanie jego rozwoju, *nouveau* nie nadaje się do codziennego użytku na nowszych kartach graficznych, dlatego trzeba posłużyć się zamkniętym sterownikiem.
+Jego instalacja jest prosta, lecz wymaga otworzenia konsoli, którą można uruchomić z Aktywatora Programów lub za pomocą skrótu klawiszowego **CTRL + ALT + T**
+//TODO
+#### Potwierdzanie wyjścia z systemu
+Domyślnie Plasma, po próbie zamknięcia lub wylogowania się z systemu, pokazuje 30-sekundowe okno, podczas gdy jest wyświetlone, możemy jeszcze zmienić decyzję.
+Aby je wyłączyć należy przejść do Ustawień systemowych i w zakładce **Uruchamianie i wyłączanie**->**Sesja pulpitu** odznaczyć opcję **Wylogowuj za potwierdzeniem**
 
 
 ### Granie na Linuxie
-Jak już wcześniej wspominałem granie na Linuxie niegdyś wymagało by gracz posiadał duże umiejętności aby zainstalować grę, która, jeśli się uruchamiała, działała z bardzo małą wydajnością.
-Te czasy się na szczęście zmieniły dzięki takim firmom jak AMD i Intel, udostępniającymi otwartoźródłowe sterowniki czy Valve oraz Codewavers tworzącymi narzędzia emulujące gry Windowsowe i ulepszającymi poszczególne komponenty kernela
-Do retro gier i gier niewymagających dużej mocy obliczeniowej zwykle nie potrzeba nic instalować oprócz Wine dostępnego w repozytorium lub poprzez Lutris.
+Jak już wcześniej wspominałem granie na Linuxie niegdyś wymagało by gracz posiadał duże umiejętności aby zainstalować grę, która, jeśli się uruchamiała, działała często z niewielką wydajnością.
+Te czasy się na szczęście zmieniły dzięki takim firmom jak AMD i Intel, udostępniającymi otwartoźródłowe sterowniki i umożliwiających wprowadzanie łatek do nich przez zewnętrznych deweloperów czy Valve oraz Codewavers tworzącymi narzędzia emulujące gry Windowsowe i ulepszającymi poszczególne komponenty kernela
 
+Najprostszym, niewymagającym żadnej wiedzy i najczęściej stosowanym rozwiązaniem jest zainstalowanie [Steama](https://store.steampowered.com/about/). Firma Valve bardzo przysłużyła się Linuxowej społeczności graczy, tworząc szereg narzędzi na czele z Protonem, umożliwiających w granie w gry przeznaczone na system Windows za pomocą jednego kliknięcia. Listę działających gier z użyciem tego narzędzia można [znaleźć tutaj](https://www.protondb.com/).  
 
-### Jak Pomóc?
-* __Udostępniaj__ - Byłbym wdzięczny, gdybyś rozpowszechnił ją wśród znajomych, rodziny czy na Facebooku.
-* __Zgłaszaj błędy__ - Jeśli znalazłeś błąd w instrukcji, lub jej część jest dla ciebie niejasna, to zgłoś to w zakładce __Issues__
-* __Dodawaj i naprawiaj treści__ - Jeśli chcesz naprawić błąd w instrukcji lub dodać/ulepszyć jej część, to stwórz __Pull Request__ z potrzebnymi zmianami.
+Do starszych lub niewymagających dużej mocy obliczeniowej gier zwykle nie potrzeba nic instalować oprócz Wine dostępnego w repozytorium - Instalacja wymagająca skopiowania kilku poleceń w języku angielskim [znajduje się tutaj](https://wiki.winehq.org/Ubuntu).
 
+W przypadku zainstalowania [Lutris](https://lutris.net/) do zarządzania grami, również potrzebna będzie instalacja Wine. Za jego pomocą, możemy prosto instalować zoptymalizowane wersje Wine, używać Esync poprawiającego wydajność gier czy DXVK umożliwiajego uruchamianie gier DX11 z pomocą Vulkan API. Szczegółowe instrukcje [znajdują się tutaj](https://github.com/lutris/lutris/wiki)
 
 ### Słowniczek
 * __Linux__ - Kernel stworzony przez Linusa Torwaldsa. Odpowiedzialny jest za wszystkie zadania systemu operacyjnego.
@@ -169,14 +192,21 @@ Do retro gier i gier niewymagających dużej mocy obliczeniowej zwykle nie potrz
 * __Snap, Flatpak, Appimage__ - Paczki z oprogramowaniem, zawierające w sobie niezbędne zależności dzięki temu będące stabilne i niezależne od innych programów zainstalowanych w systemie
 * __Terminal__ - Program w którym komendy wpisywane są w formie tekstowej
 * __System Operacyjny__ - Oprogramowanie zarządzające fizycznymi elementami komputera i zapewniające funkcje do uruchamiania programistów
-* __Dystrybucja__ -
+* __Dystrybucja__ - Jest to system operacyjny dystrybuowany z jądrem Linuxa, posiadający szereg wbudowanych programów
 * __Lutris__ - Program do zarządzania grami/aplikacjami, uproszczający używanie WINE, DXVK czy Esync
 * __Repozytorium__ - Jest to miejsce, gdzie znajdują się różne programy.
-* __
+* __PPA__ - Są to repozytoria tworzone przez np. twórcy aplikacji, by zapewnić użytkownikowi najnowszą wersję programów
 
 ### Strony, fora, działy i tagi związane z tematyką Linuxa gdzie możecie znaleźć pomoc
 * wykop.pl - [tag Linux](https://www.wykop.pl/tag/linux)
 * forum.dobreprogramy.pl - [kategoria GNU/Linux](https://forum.dobreprogramy.pl/c/oprogramowanie-komputerowe/gnu-linux)
+* forum.linux.pl - [forum Linux](https://forum.linux.pl/)
+* linuxiarze.pl - [forum Linuxiarze](https://linuxiarze.pl/forum/)
 
-### Zaawansowane strony z materiałami do nauki
+### Strony z zaawansowanymi materiałami do nauki
 * [Linux Jouney](https://www.linuxjourney.com)
+
+### Jak Pomóc?
+* __Udostępniaj__ - Byłbym wdzięczny, gdybyś rozpowszechnił ją wśród znajomych, rodziny czy na Facebooku.
+* __Zgłaszaj błędy__ - Jeśli znalazłeś błąd w instrukcji, lub jej część jest dla ciebie niejasna, to zgłoś to w zakładce __Issues__
+* __Dodawaj i naprawiaj treści__ - Jeśli chcesz naprawić błąd w instrukcji lub dodać/ulepszyć jej część, to stwórz __Pull Request__ z potrzebnymi zmianami.
