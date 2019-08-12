@@ -51,10 +51,9 @@ Jeszcze kilka/kilkanaście lat temu znaczna część producentów traktowała po
 
 * **Linux nie jest dobrym systemem dla graczy** - **Częściowo PRAWDA**  
 Na początek trzeba rozgraniczyć trzy kategorie graczy:
- * Pierwszą z nich są tzw. retro gracze korzystający z różnej maści emulatorów różnych konsol do grania, takich jak Playstation 1, SNES czy Gamecube. Ogromna ilość takich narzędzi sprawia, że system Linux jest bardzo dobrym wyborem dla takich użytkowników.
- * Drugą z nich są osoby grające w gry nie oferujące zaawansowanej grafiki. Znaczna większość takich gier powinna bez większych problemów działać poprzez WINE i w zależności od tytułu wydajność powinna być porównywalna do gry uruchomionej na maszynie z Windowsem. Polski sklep [GOG](https://gog.com) oferuje ogromną ilość gier bez DRM, przeważnie świetnie działających pod Linuxem. Warto wspomnieć, że część gier, które nie działają poprawnie pod Windowsem 10, działa poprawnie na Linuxie.
- * Trzecią i ostatnią jest grupa zwykłych i hardkorowych graczy, którzy używają swojego sprzętu do uruchamiania zaawansowanych graficznie gier. Do czasu ogłoszenia Vulkan API, nie istniała technologia, za pomocą której można by było uruchamiać gry na Linuxie z wysoką wydajnością. Wszystko się zmieniło z jego wydaniem, które przyczyniły się do wydania takich programów jak D9VK, DXVK oraz VKD3D umożliwiających tłumaczenie odwołań DirectX 9, 10, 11 i 12 na multi-platformowego Vulkana, przeważnie zapewniając grom 70% - 90% wydajności z Windowsa a czasami działając na Linuxie płynniej i szybciej z powodu mniejszego narzutu sterowników.  
- Znacznym problemem jest używanie systemów anti-cheat niekompatybilnych z Linuxem ponieważ gry je używające, często banują błędnie banują graczy linuksowych lub nie pozwalają się uruchomić.
+  * Pierwszą z nich są tzw. retro gracze korzystający z różnej maści emulatorów różnych konsol do grania, takich jak Playstation 1, SNES czy Gamecube. Ogromna ilość takich narzędzi sprawia, że system Linux jest bardzo dobrym wyborem dla takich użytkowników.
+  * Drugą z nich są osoby grające w gry nie oferujące zaawansowanej grafiki. Znaczna większość takich gier powinna bez większych problemów działać poprzez WINE i w zależności od tytułu wydajność powinna być porównywalna do gry uruchomionej na maszynie z Windowsem. Polski sklep [GOG](https://gog.com) oferuje ogromną ilość gier bez DRM, przeważnie świetnie działających pod Linuxem. Warto wspomnieć, że część gier, które nie działają poprawnie pod Windowsem 10, działa poprawnie na Linuxie.
+  * Trzecią i ostatnią jest grupa zwykłych i hardkorowych graczy, którzy używają swojego sprzętu do uruchamiania zaawansowanych graficznie gier. Do czasu ogłoszenia Vulkan API, nie istniała technologia, za pomocą której można by było uruchamiać gry na Linuxie z wysoką wydajnością. Wszystko się zmieniło z jego wydaniem, które przyczyniły się do wydania takich programów jak D9VK, DXVK oraz VKD3D umożliwiających tłumaczenie odwołań DirectX 9, 10, 11 i 12 na multi-platformowego Vulkana, przeważnie zapewniając grom 70% - 90% wydajności z Windowsa a czasami działając na Linuxie płynniej i szybciej z powodu mniejszego narzutu sterowników.  Znacznym problemem jest używanie systemów anti-cheat niekompatybilnych z Linuxem ponieważ gry je używające, często banują błędnie banują graczy linuksowych lub nie pozwalają się uruchomić.
 
 * **Na Linuxa nie ma komercyjnych programów** - **FAŁSZ**  
 Część producentów komercyjnego oprogramowania jak np. Adobe od samego początku omija szerokim łukiem Linuxa, jednak znaczna część firm na czele z Autodesk widząc potencjał drzemiący w tym systemie oferuje na niego ogromną ilość programów. Rynek serwerowy, na którym króluje Linux, przynosi ogromne zyski dla wydawców takiego oprogramowania.
@@ -74,7 +73,7 @@ System Android, znajdujący na większości telefonów, jest zbudowany wokół j
 
 Podstawowym zagadnieniem, na który natkniesz się jest słowo **Dystrybucja**, które oznacza system operacyjny z jądrem Linuxa. Dystrybucje mogą od siebie wywodzić, dzięki czemu każda przejmuje część z ich właściwości. Takim przykładem jest Linux Mint, który wywodzi się od Ubuntu, który to natomiast pochodzi od Debiana.
 
-Ważną informacją dla wielu użytkowników jest to, czy dana dystrybucja wspiera model wydań **LTS**. Takie wydania są obecne np. w Ubuntu i Linux Mint, 3 lub 5 lat w zależności od wersji, podczas gdy zwykłe wydania są wspierane jedynie przez 9 miesięcy.
+Ważną informacją dla wielu użytkowników jest to, czy dana dystrybucja wspiera model wydań **LTS**. Takie wydania są obecne np. w Ubuntu i Linux Mint i oznaczają, że przez okres 3 lub 5 lat, w zależności od wersji, będzie system wspierany, podczas gdy zwykłe wydania są wspierane jedynie przez 9 miesięcy.
 
 W świecie Linuxa panuje podział na dwa typy dystrybucji, ciągłe i cykliczne.
 * **Dystrybucja Ciągła** - Oferuje najnowsze dostępne programy i funkcje, lecz czasami nowsze wersje pakietów mogą powodować niestabilność systemu lub jego całkowite uszkodzenie. Korzystając z takich dystrybucji niemal jest konieczne posiadanie kopii zapasowej. Przykładami takich dystrybucji są: Arch Linux, Manjaro.
@@ -90,7 +89,7 @@ Część z systemów po wypakowaniu pliku ISO na pendriva powinna działać, lec
 Na początek uruchamiamy Etchera i naciskamy na przycisk **Select Image**, aby wybrać pobrany wcześniej plik ISO z systemem KDE Neon.  
 Potem klikamy na **Select target**, aby wybrać pendrive na który chcemy zrzucić obraz(minimum 4 GB).  
 
-**UWAGA** - *Wszystkie dane zawarte na pendrive zostaną skasowane*
+**UWAGA** - **Wszystkie dane zawarte na pendrive zostaną skasowane**
 
 Na koniec naciskamy **Flash** by rozpocząć proces wgrywania plików na pendriva.
 ![Screenshot_20190809_182443](https://user-images.githubusercontent.com/41945903/62882986-5e9f7100-bd33-11e9-825a-f4f8ccf9e3d5.png)
@@ -122,7 +121,8 @@ Następnie zalecam zaznaczenie opcji **Pobierz aktualizacje podczas instalowania
 ![Screenshot_20190809_212639](https://user-images.githubusercontent.com/41945903/62882714-cef9c280-bd32-11e9-901e-efebdb90407c.png)
 
 W kolejnym kroku, przechodzimy do konfiguracji dysków.  
-Jeśli na dysku nie znajdują się żadne dane, lub usunięcie ich nie jest problemem, wtedy należy wybrać opcję **Przewodnik - cały dysk** oraz niżej wybrać dysk na jakim ma być system zainstalowany.  
+Jeśli na dysku nie znajdują się żadne dane, lub usunięcie ich nie jest problemem, wtedy należy wybrać opcję **Przewodnik - cały dysk** oraz niżej wybrać dysk na jakim ma być system zainstalowany.
+
 W przypadku konieczności zainstalowania systemu obok Windowsa albo innego Linuxa lub koniecznością stworzenia niestandardowych partycji, należy wybrać opcję **Ręcznie**. Niestety jest to nieco skomplikowane oraz zależne od indywidualnej konfiguracji, dlatego polecam stworzenie wątku na forum lub tagu wspomnianym w paragrafie [Strony, fora, działy i tagi](#strony-fora-działy-i-tagi-związane-z-tematyką-linuxa-gdzie-możecie-znaleźć-pomoc).
 Pragnę jedynie wspomnieć o podstawowych rzeczach związanych z tworzeniem partycji w tym trybie
 - Punkt montowania / określa lokalizację w której zostanie zainstalowany systemy
@@ -137,12 +137,11 @@ Po zatwierdzeniu zmian w menedżerze dysków, rozpocznie się w tle proces insta
 Musimy następnie wybrać naszą strefę czasową.
 ![Screenshot_20190809_214638](https://user-images.githubusercontent.com/41945903/62882801-f0f34500-bd32-11e9-88fa-45ebc473e752.png)
 
-Na następnym ekranie tworzymy administratora urządzenia
-Począwszy od góry wypełniamy
-Imię i Nazwisko lub Pseudonim
-Nazwę użytkownika pisaną małymi literami
-Hasło wpisywane dwukrotnie aby uniknąć pomyłek(najlepiej będące zlepkiem kilku słów i znaków)
-Nazwę Komputera(dobrze by było gdyby coś oznaczała)
+Na następnym ekranie tworzymy administratora urządzenia, począwszy od góry wypełniamy:    
+Imię i Nazwisko lub Pseudonim  
+Nazwę użytkownika pisaną małymi literami  
+Hasło wpisywane dwukrotnie aby uniknąć pomyłek(najlepiej będące zlepkiem kilku słów i znaków)  
+Nazwę Komputera(dobrze by było gdyby coś oznaczała)  
 Typ logowania - czy chcemy wpisywać hasło przy logowaniu, czy automatycznie ma się komputer logować na nasze konto
 ![Screenshot_20190809_214728](https://user-images.githubusercontent.com/41945903/62882806-f2247200-bd32-11e9-9516-9c814ba9228b.png)
 
@@ -154,10 +153,10 @@ Powinna po próbie uruchomienia ponownie komputera wyskoczyć informacja o konie
 ### Konfiguracja Systemu
 Po zakończeniu instalacji systemu, możemy w końcu zalogować się na swoje konto. Użytkownicy kart graficznych AMD i Intela(zintegrowanych), mogą po lewej stronie na dole wybrać opcję Plasma Wayland, która zapobiega występowania "rwania" obrazu.
 ![Screenshot_20190809_233033](https://user-images.githubusercontent.com/41945903/62882913-3adc2b00-bd33-11e9-9081-7197f336f3eb.png)
-Naszym oczom powinien ukazać się pulpit, przypominający wyglądem i działaniem ten z Windowsa.
-Po lewej stronie na dole widzimy aktywator programów, umożliwiający przeglądanie zainstalowanych programów, można go również otworzyć klawiszem Super znajdującym się obok lewego klawisza Ctrl oraz prawego Alt.
-Po prawej stronie na dole znajduje się pasek zadań, w którym to znajdują się opcje umożliwiające połączenie z siecią, sprawdzenie jasności czy połączenie komputera z telefonem.
-Po skierowaniu myszy na lewy górny róg, w czasie gdy mamy uruchomione kilka okien, powinniśmy zobaczyć podgląd ich wszystkich
+Naszym oczom powinien ukazać się pulpit, przypominający wyglądem i działaniem ten z Windowsa.  
+Po lewej stronie na dole widzimy aktywator programów, umożliwiający przeglądanie zainstalowanych programów, można go również otworzyć klawiszem Super znajdującym się obok lewego klawisza Ctrl oraz prawego Alt.  
+Po prawej stronie na dole znajduje się pasek zadań, w którym to znajdują się opcje umożliwiające połączenie z siecią, sprawdzenie jasności czy połączenie komputera z telefonem.  
+Po skierowaniu myszy na lewy górny róg, w czasie gdy mamy uruchomione kilka okien, powinniśmy zobaczyć podgląd ich wszystkich.  
 Po prawej stronie u góry znajduje się menu opcji Pulpitu w którym możemy choćby zmienić tapetę.
 ![Screenshot_20190812_190234](https://user-images.githubusercontent.com/41945903/62883195-c8b81600-bd33-11e9-8b3a-ff9405b76ffe.png)
 
@@ -165,46 +164,46 @@ Mimo, że system jest już wstępnie skonfigurowany, to niektóre rzeczy według
 #### Ciągłe pytanie o hasło do WiFi
 System z domyślnymi ustawieniami zapisze hasło do WiFi w Portfelu będącym menedżerem haseł. Przy każdym uruchomieniu systemu, będzie trzeba podać hasło do portfela celem uruchomienia WiFi. Hasło może być przechowywane poza portfelem co oszczędzi nam nerwów podczas kolejnej próby wpisywania hasła.
 Aby to zrobić należy uruchomić Aktywator Programów, wyszukać i uruchomić program **Połączenia**.
-Wybieramy z lewej strony połączenie WiFi o które nam chodzi, wtedy po prawej przechodzimy do zakładki **Zabezpieczenie Wi-Fi**, wpisujemy tam hasło i wybieramy opcję *Zachowaj dla wszystkich użytkowników (nieszyfrowane)*
+Wybieramy z lewej strony połączenie WiFi o które nam chodzi, wtedy po prawej przechodzimy do zakładki **Zabezpieczenie Wi-Fi**, wpisujemy tam hasło i wybieramy opcję **Zachowaj dla wszystkich użytkowników (nieszyfrowane)**
 Zatwierdź to klikając OK.
 ![Screenshot_20190809_234417](https://user-images.githubusercontent.com/41945903/62883393-41b76d80-bd34-11e9-8401-50b051da5ca2.png)
 #### Ciemny Motyw
 Domyślny motyw jest dla mnie, jak i wielu zbyt jasny.
 Aby to zmienić należy uruchomić Aktywator Programów i wyszukać i uruchomić ustawienia systemowe.
 W zakładce *Wrażenia wzrokowe i dotykowe* wybieramy motyw **Ciemna bryza** i zatwierdzamy to za pomocą przycisku Zastosuj.
-Dodatkowo programy GTK wymagają aby zmienić również w zakładce *Wygląd Programów* -> *Wygląd aplikacji GNOME/GTK* ustawienia *Wygląd GTK2* i *Wygląd GTK3* na **Breeze-dark** oraz nieco niżej *Zestaw ikon* oraz *Zestaw Zapasowy* na **Ciemna Bryza**
+Dodatkowo programy GTK wymagają aby zmienić również w zakładce **Wygląd Programów** -> **Wygląd aplikacji GNOME/GTK** ustawienia **Wygląd GTK2** i **Wygląd GTK3** na **Breeze-dark** oraz nieco niżej **Zestaw ikon** oraz **Zestaw Zapasowy** na **Ciemna Bryza**
 #### Jeden klik zamiast dwóch otwiera foldery/pliki
-Domyślnie jeden klik w przeciwieństwie do Windowsa i innych środowisk otwiera plik. Aby to zmienić należy przejść do zakładki w ustawieniach systemowych *Zachowanie Pulpitu* -> *Przestrzeń Robocza* i zaznaczyć opcję **Dwukrotne kliknięcie otwiera pliki i katalogi**
+Domyślnie jeden klik w przeciwieństwie do Windowsa i innych środowisk otwiera plik. Aby to zmienić należy przejść do zakładki w ustawieniach systemowych **Zachowanie Pulpitu** -> **Przestrzeń Robocza** i zaznaczyć opcję **Dwukrotne kliknięcie otwiera pliki i katalogi**
 #### Przywracanie okien po wyłączeniu komputera
-KDE Plasma przywraca sesję po ponownym uruchomieniu komputera, która to przywraca wszystkie okna sprzed restartu. Aby temu zapobiec, należy w ustawieniach w zakładce *Uruchamianie i wyłączanie* -> *Sesja pulpitu* zaznaczyć opcję w sekcji *Przy logowaniu* opcję **Rozpocznij pustą sesję**
+KDE Plasma przywraca sesję po ponownym uruchomieniu komputera, która to przywraca wszystkie okna sprzed restartu. Aby temu zapobiec, należy w ustawieniach w zakładce **Uruchamianie i wyłączanie** -> **Sesja pulpitu** zaznaczyć opcję w sekcji **Przy logowaniu** opcję **Rozpocznij pustą sesję**
 ![Screenshot_20190812_190738](https://user-images.githubusercontent.com/41945903/62883499-79261a00-bd34-11e9-9892-8700975a8840.png)
 #### Potwierdzanie wyjścia z systemu
 Domyślnie Plasma, po próbie zamknięcia lub wylogowania się z systemu, pokazuje 30-sekundowe okno, podczas gdy jest wyświetlone, możemy jeszcze zmienić decyzję.
 Aby je wyłączyć należy przejść do Ustawień systemowych i w zakładce **Uruchamianie i wyłączanie**->**Sesja pulpitu** odznaczyć opcję **Wylogowuj za potwierdzeniem** oraz zaznacz opcję **Wyłącz Komputer** w dziale **Przy Wychodzeniu**
 #### Niepełne wsparcie dla języka polskiego
-Aby dodać pełne wsparcie dla języka polskiego, należy w ustawieniach systemowych w zakładce *Ustawienia regionalne* -> *Język* dodać język polski, zatwierdzić zmiany oraz wylogować się//uruchomić ponownie komputera
+Aby dodać pełne wsparcie dla języka polskiego, należy w ustawieniach systemowych w zakładce **Ustawienia regionalne** -> **Język** dodać język polski, zatwierdzić zmiany oraz wylogować się//uruchomić ponownie komputera
 #### Instalacja Programów
-Aby zainstalować różne aplikacje, należy skorzystać z programu *Odkrywca*, który można znaleźć w Aktywatorze programów.
+Aby zainstalować różne aplikacje, należy skorzystać z programu **Odkrywca**, który można znaleźć w Aktywatorze programów.
 Listę dostępnego darmowego oprogramowania znajdziesz tutaj [Rewelacyjne OpenSource](https://github.com/qarmin/Rewelacyjne-OpenSource)
 ![Screenshot_20190809_234417](https://user-images.githubusercontent.com/41945903/62883545-91963480-bd34-11e9-9ab0-114726e73c4f.png)
 #### Aktualizacja systemu i Programów
-Podstawą bezpiecznego systemu jest jego częste aktualizowanie.
-W Linuxie aktualizacja systemu jest powiązana z aktualizacją programów, dzięki czemu nie będziemy posiadać niebezpiecznego nieaktualnego oprogramowania.
-Aby zaktualizować system musimy najpierw otworzyć program *Odkrywca*, który otwieramy poprzez Aktywator Programów. Następnie przechodzimy do zakładki *Uaktualnienia* znajdującej się w lewym dolnym rogu programu.
-Po odczekaniu chwili potrzebnej na pobranie informacji na temat dostępnych aktualizacji, należy w prawym górnym rogu nacisnąć na przycisk *Uaktualnij wszystko*
-Będziemy musieli podać hasło do konta, aby umożliwić instalacje pakietów.
-**UWAGA** - *Zalecane jest, aby uruchomić ponownie komputer po aktualizacji, aby uniknąć niepożądanych zachowań systemu*
-**UWAGA** - *Aktualizację systemu powinno się wykonywać co najmniej 1 raz w miesiącu(im częściej, tym lepiej)*
+Podstawą bezpiecznego systemu jest jego częste aktualizowanie.  
+W Linuxie aktualizacja systemu jest powiązana z aktualizacją programów, dzięki czemu nie będziemy posiadać niebezpiecznego nieaktualnego oprogramowania.  
+Aby zaktualizować system musimy najpierw otworzyć program **Odkrywca**, który otwieramy poprzez Aktywator Programów. Następnie przechodzimy do zakładki **Uaktualnienia** znajdującej się w lewym dolnym rogu programu.  
+Po odczekaniu chwili potrzebnej na pobranie informacji na temat dostępnych aktualizacji, należy w prawym górnym rogu nacisnąć na przycisk **Uaktualnij wszystko**
+Będziemy musieli podać hasło do konta, aby umożliwić instalacje pakietów.  
+**UWAGA** - **Zalecane jest, aby uruchomić ponownie komputer po aktualizacji, aby uniknąć niepożądanych zachowań systemu.**  
+**UWAGA** - **Aktualizację systemu powinno się wykonywać co najmniej 1 raz w miesiącu(im częściej, tym lepiej)**
 ![Screenshot_20190810_091702](https://user-images.githubusercontent.com/41945903/62883565-9f4bba00-bd34-11e9-93d9-a58b3e1a5ecc.png)
 #### Sterowniki do karty graficznej
 Intel oraz AMD domyślnie posiadają sterowniki do swoich kart graficznych w bilbiotece graficznej Mesa, dostępnej domyślnie na większości dystrybucji, w tym w KDE Neon, których aktualizacja przebiega wraz z aktualizacją systemu.
 
-Do kart Nvidii również został przygotowany otwartoźródłowy sterownik *nouveau*, lecz poprzez szereg decyzji Nvidii, mających na celu zablokowanie jego rozwoju, *nouveau* nie nadaje się do codziennego użytku na nowszych kartach graficznych, dlatego trzeba posłużyć się zamkniętym sterownikiem.
-Jego instalacja jest prosta, lecz wymaga otworzenia konsoli, którą można uruchomić z Aktywatora Programów lub za pomocą skrótu klawiszowego **CTRL + ALT + T**
+Do kart Nvidii również został przygotowany otwartoźródłowy sterownik **nouveau**, lecz poprzez szereg decyzji Nvidii, mających na celu zablokowanie jego rozwoju, **nouveau** nie nadaje się do codziennego użytku na nowszych kartach graficznych, dlatego trzeba posłużyć się zamkniętym sterownikiem.  
+Jego instalacja jest prosta, lecz wymaga otworzenia konsoli, którą można uruchomić z Aktywatora Programów lub za pomocą skrótu klawiszowego **CTRL + ALT + T**  
 //TODO
 
 ### Granie na Linuxie
-Granie na Linuxie niegdyś wymagało by gracz posiadał duże umiejętności aby zainstalować grę, która, jeśli się uruchamiała, działała często z niewielką wydajnością.
+Granie na Linuxie niegdyś wymagało by gracz posiadał duże umiejętności aby zainstalować grę, która, jeśli się uruchamiała, działała często z niewielką wydajnością.  
 Te czasy się na szczęście minęły dzięki takim firmom jak AMD i Intel, które udostępniły otwartoźródłowe sterowniki do swoich kart graficznych i umożliwiły wprowadzanie do nich łatek przez zewnętrznych deweloperów, czy Valve oraz Codewavers tworzącymi narzędzia emulujące gry Windowsowe i ulepszającymi poszczególne komponenty kernela poprawiając osiągi gier.
 
 Najprostszym, niewymagającym żadnej wiedzy i najczęściej stosowanym rozwiązaniem jest zainstalowanie [Steama](https://store.steampowered.com/about/). Firma Valve bardzo przysłużyła się Linuxowej społeczności graczy, tworząc szereg narzędzi na czele z Protonem, umożliwiających w granie w gry przeznaczone na system Windows za pomocą jednego kliknięcia. Listę działających gier z użyciem tego narzędzia można [znaleźć tutaj](https://www.protondb.com/).
