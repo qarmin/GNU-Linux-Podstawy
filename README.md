@@ -192,7 +192,7 @@ Aby dodać pełne wsparcie dla języka polskiego, należy w ustawieniach systemo
 
 #### Instalacja Programów
 Aby zainstalować różne aplikacje, należy skorzystać z programu **Odkrywca**, który można znaleźć w Aktywatorze programów.
-Listę dostępnego darmowego oprogramowania znajdziesz tutaj [Rewelacyjne OpenSource](https://github.com/qarmin/Rewelacyjne-OpenSource)
+Listę dostępnego wolnego oprogramowania znajdziesz tutaj [Rewelacyjne OpenSource](https://github.com/qarmin/Rewelacyjne-OpenSource)
 ![Screenshot_20190809_234417](https://user-images.githubusercontent.com/41945903/62883545-91963480-bd34-11e9-9ab0-114726e73c4f.png)
 
 #### Aktualizacja systemu i Programów
