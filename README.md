@@ -89,7 +89,7 @@ Część z systemów po wypakowaniu pliku ISO na pendrive'a powinna działać, l
 Na początek uruchamiamy Etchera i naciskamy na przycisk **Select Image**, aby wybrać pobrany wcześniej plik ISO z systemem KDE Neon.  
 Potem klikamy na **Select target**, aby wybrać pendrive na który chcemy zrzucić obraz (minimum 4 GB).  
 
-**UWAGA** - **Wszystkie dane zawarte na pendrive zostaną skasowane**
+**UWAGA** - **Wszystkie dane zawarte na pendrive'ie zostaną skasowane**
 
 Na koniec naciskamy **Flash** by rozpocząć proces wgrywania plików na pendriva.
 ![Screenshot_20190809_182443](https://user-images.githubusercontent.com/41945903/62882986-5e9f7100-bd33-11e9-825a-f4f8ccf9e3d5.png)
