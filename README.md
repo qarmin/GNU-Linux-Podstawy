@@ -17,7 +17,7 @@
 ![800px-Neon-logo svg](https://user-images.githubusercontent.com/41945903/62884778-a4f6cf00-bd37-11e9-8120-873955186520.png)
 
 ### Informacje o repozytorium
-To zawiera podstawowe informacje o jądrze Linux, bazującym na nim dystrybucjach, mitach i faktach itp.
+Repozytorium zawiera podstawowe informacje o jądrze Linux, bazujących na nim dystrybucjach, mitach i faktach itp.
 Opisuję w nim również instrukcję instalacji oraz podstawowej konfiguracji systemu KDE Neon, którego sercem jest kernel Linux.
 
 Jest ona przeznaczona dla początkujących osób, chcących zacząć przygodę z tym systemem.
@@ -30,7 +30,7 @@ Linux jest dystrybuowany na licencji GPL 2, dzięki czemu można go używać kom
 
 **Z racji swojej budowy i modelu licencjonowania nadaje się dla:**
 * osób dbających o swoją prywatność
-* ludzi troszczących się o swoje bezpieczeństwo w sieci
+* ludzi troszczących się o swoje bezpieczeństwo
 * programistów
 * zarządzających sieciami komputerowymi
 * zwykłych użytkowników
@@ -44,25 +44,26 @@ Linux jest dystrybuowany na licencji GPL 2, dzięki czemu można go używać kom
 * osoby korzystające ze sterowników do urządzeń, których nie ma na Linuxie
 
 ### Mity i fakty
-Wiele nieprawdziwych i przestarzałych informacji krąży na temat GNU/Linuxa
+Wiele nieprawdziwych i przestarzałych informacji krąży na temat GNU/Linuxa i dlatego postanowiłem je skonfrontować z rzeczywistością:
 
 * **Sterowniki na Linuxa są tragicznej jakości** - **FAŁSZ**  
-Jeszcze kilka/kilkanaście lat temu znaczna część producentów traktowała po macoszemu GNU/Linuxa i wydawane przez nich sterowniki były zamknięte oraz czasami słabej jakości. Dzisiaj większość czołowych producentów dostarcza kod swoich sterowników razem z kernelem, dzięki czemu razem ze wsparciem społeczności firmy takie jak Intel czy AMD, często przygotowują sterowniki, które obsługują np. wyższe wersje OpenGL i Vulkan lub likwidują błędy urządzeniach, które są już niewspierane na Windowsie.
+Jeszcze kilka/kilkanaście lat temu znaczna część producentów traktowała po macoszemu GNU/Linuxa i wydawane przez nich sterowniki na ten system były często zamknięte oraz słabej jakości. Dzisiaj jednak, większość czołowych producentów dostarcza kod swoich sterowników razem z kernelem, dzięki czemu wraz ze społecznością firmy takie jak Intel czy AMD, przygotowują sterowniki, które obsługują np. wyższe wersje OpenGL i Vulkan lub likwidują błędy na urządzeniach, które przestały już być wspierane na Windowsie.
 
 * **GNU/Linux nie jest dobrym systemem dla graczy** - **Częściowo PRAWDA**  
 Na początek trzeba rozgraniczyć trzy kategorie graczy:
-  * Pierwszą z nich są tzw. retro gracze korzystający z różnej maści emulatorów różnych konsol do grania, takich jak Playstation 1, SNES czy Gamecube. Ogromna ilość takich narzędzi sprawia, że system GNU/Linux jest bardzo dobrym wyborem dla takich użytkowników.
-  * Drugą z nich są osoby grające w gry nieoferujące zaawansowanej grafiki. Znaczna większość takich gier powinna bez większych problemów działać poprzez WINE i w zależności od tytułu wydajność powinna być porównywalna do gry uruchomionej na maszynie z Windowsem. Polski sklep [GOG](https://gog.com) oferuje ogromną ilość gier bez DRM, przeważnie świetnie działających pod GNU/Linuxem. Warto wspomnieć, że część gier, które nie działają poprawnie pod Windowsem 10, działa poprawnie na GNU/Linuxie.
-  * Trzecią i ostatnią jest grupa zwykłych i hardkorowych graczy, którzy używają swojego sprzętu do uruchamiania zaawansowanych graficznie gier. Do czasu ogłoszenia Vulkan API, nie istniała technologia, za pomocą której można by było z wysoką wydajnością uruchamiać gry na GNU/Linuxie. Wszystko się zmieniło z jego wydaniem, które przyczyniły się do wydania takich programów jak D9VK, DXVK oraz VKD3D umożliwiających tłumaczenie odwołań DirectX 9, 10, 11 i 12 na multi-platformowego Vulkana, przeważnie zapewniając grom 70% - 90% wydajności z Windowsa a czasami działając na GNU/Linuxie płynniej i szybciej z powodu mniejszego narzutu sterowników.  Znacznym problemem jest używanie systemów anti-cheat niekompatybilnych z GNU/Linuxem ponieważ gry ich używające często błędnie banują banują graczy gnu/linuksowych lub nie pozwalają się uruchomić.
+  * Pierwszą z nich są tzw. retro gracze korzystający z różnej maści emulatorów konsol, takich jak Playstation 1, SNES czy Gamecube. Ogromna ilość takich narzędzi sprawia, że system GNU/Linux jest bardzo dobrym wyborem dla takich użytkowników.
+  * Drugą z nich są osoby grające w gry, nie oferujące zaawansowanej grafiki. Znaczna większość takich gier powinna bez większych problemów działać poprzez WINE i w zależności od tytułu, wydajność powinna być porównywalna do gry uruchomionej na maszynie z Windowsem. Polski sklep [GOG](https://gog.com) oferuje ogromną ilość gier bez DRM, z których wiele posiada wsparcie dla Linuxa prosto od producentów, a reszta przeważnie świetnie działa poprzez Wine. Warto wspomnieć, że część gier, które z najróżniejszych powodów nie działa poprawnie pod Windowsem 10, działa poprawnie na Linuxie.
+  * Trzecią i ostatnią, jest grupa zwykłych i hardkorowych graczy, którzy używają swojego sprzętu do uruchamiania zaawansowanych graficznie gier. Do czasu ogłoszenia Vulkan API, nie istniała technologia, za pomocą której można by było uruchamiać gry na GNU/Linuxie z wysoką wydajnością. Wszystko się zmieniło z jego wydaniem, które przyczyniły się do wydania takich narzędzi jak D9VK, DXVK oraz VKD3D umożliwiających tłumaczenie odwołań DirectX 9, 10, 11 i 12 na multi-platformowy Vulkan, przeważnie zapewniając grom 70% - 90% wydajności z Windowsa a czasami działając na Linuxie płynniej i szybciej z powodu mniejszego narzutu sterowników.  
+  Znacznym problemem dla grania na Linuxie jest używanie systemów anti-cheat niekompatybilnych z tym systemem, ponieważ te narzędzia często banują błędnie banują graczy linuksowych podczas zwykłej rozgrywki lub nie pozwalają się wcale uruchomić grze.
 
 * **Na GNU/Linuxa nie ma komercyjnych programów** - **FAŁSZ**  
-Część producentów komercyjnego oprogramowania jak np. Adobe od samego początku omija szerokim łukiem GNU/Linuxa, jednak znaczna część firm na czele z Autodeskiem widząc potencjał drzemiący w tym systemie oferuje na niego ogromną ilość programów. Rynek serwerowy, na którym króluje GNU/Linux, przynosi ogromne zyski dla wydawców takiego oprogramowania.
+Część producentów komercyjnego oprogramowania jak np. Adobe od samego początku omija szerokim łukiem GNU/Linuxa, jednak znaczna część firm na czele z Autodesk widząc potencjał drzemiący w tym systemie oferuje na niego ogromną ilość płatnych programów. Rynek serwerowy, na którym króluje GNU/Linux, przynosi ogromne zyski dla wydawców komercyjnego oprogramowania.
 
-* **W GNU/Linuxie trzeba korzystać z konsoli** - **FAŁSZ**  
-Znaczna część dystrybucji, a w szczególności te bazujące na Ubuntu(np. KDE Neon, Linux Mint), zdolna jest do obsługi systemu bez konieczności używania terminala. Trzeba jednak dodać, że znajomość komend w terminalu, chociaż wydaje się nieco przytłaczająca dla nowych użytkowników, pozwala na sprawniejsze korzystanie z systemu.
+* **W Linuxie trzeba korzystać z konsoli** - **FAŁSZ**  
+Znaczna część dystrybucji, a w szczególności te bazujące na Ubuntu(np. KDE Neon, Linux Mint), zdolna jest do obsługi systemu bez konieczności używania terminala. Trzeba jednak dodać, że znajomość podstawowych komend konsolowych, chociaż wydaje się nieco przytłaczająca dla nowych użytkowników, pozwala na sprawniejsze korzystanie z systemu.
 
 * **Na GNU/Linuxa nie ma wirusów** - **FAŁSZ**  
-Zwykły użytkownik GNU/Linuxa, prawdopodobnie nigdy nie spotka się z wirusem, ponieważ robaki tworzone na ten system zwykle są dedykowane serwerom, gdyż na rynku komputerów GNU/Linux posiada jedynie niewielki procent rynku. Dodatkowo, zainstalowanie robaka w systemie wymagałoby świadomego jego uruchomienia.  
+Zwykły użytkownik GNU/Linuxa, prawdopodobnie nigdy nie spotka się z wirusem ponieważ są one zwykle tworzone z myślą o serwerach, gdyż na rynku komputerów GNU/Linux posiada jedynie niewielki procent rynku. Dodatkowo, zainstalowanie robaka w systemie wymagałoby świadomego jego uruchomienia.  
 Aktualny system i oprogramowanie chroni również przed już załatanymi lukami, które cyberprzestępcy próbują użyć przeciwko niezałatanym systemom.
 
 * **Linux to najczęściej używany kernel na świecie** - **PRAWDA**  
@@ -71,9 +72,9 @@ System Android, znajdujący na większości telefonów, jest zbudowany wokół j
 
 ### Dystrybucje, wydania LTS, dystrybucja ciągłe i cykliczne
 
-Podstawowym zagadnieniem, na który natkniesz się jest słowo **Dystrybucja**, które oznacza system operacyjny z jądrem Linux. Dystrybucje mogą od siebie wywodzić, dzięki czemu każda przejmuje część z ich właściwości. Takim przykładem jest Linux Mint, który wywodzi się od Ubuntu, który to natomiast pochodzi od Debiana.
+Podstawowym zagadnieniem, na który natkniesz się jest słowo **Dystrybucja**, które oznacza system operacyjny z jądrem Linux. Dystrybucje mogą się od siebie wywodzić, dzięki czemu każda przejmuje część z właściwości swojego pierwowzoru. Takim przykładem jest choćby Linux Mint, który wywodzi się od Ubuntu, który to natomiast pochodzi od Debiana.
 
-Ważną informacją dla wielu użytkowników jest to, czy dana dystrybucja wspiera model wydań **LTS**. Takie wydania są obecne np. w Ubuntu i Mincie i oznaczają, że przez okres 3 lub 5 lat, w zależności od wersji, będzie system wspierany, podczas gdy zwykłe wydania są wspierane jedynie przez 9 miesięcy.
+Ważną informacją dla wielu użytkowników jest to, czy dana dystrybucja wspiera model wydań **LTS**. Takie wydania są obecne np. w Ubuntu oraz Linux Mint i oznaczają, że przez okres 3 lub 5 lat, w zależności od wersji, system będzie wspierany, podczas gdy zwykłe wydania są wspierane jedynie przez 9 miesięcy.
 
 W świecie GNU/Linuxa panuje podział na dwa typy dystrybucji, ciągłe (zwane także rolling release) i cykliczne.
 * **Dystrybucja Ciągła** - Oferuje najnowsze dostępne programy i funkcje, lecz czasami nowsze wersje pakietów mogą powodować niestabilność systemu lub jego całkowite uszkodzenie. Korzystając z takich dystrybucji niemal jest konieczne posiadanie kopii zapasowej. Przykładami takich dystrybucji są: Arch Linux, Manjaro, GuixSD.
