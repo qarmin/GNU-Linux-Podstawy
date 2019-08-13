@@ -2,13 +2,13 @@
 
 ### Spis Treści
 1. [Informacje o repozytorium](#informacje-o-repozytorium)
-2. [Czym jest GNU/Linux i czy będzie dla mnie odpowiedni?](#czym-jest-linux-i-czy-będzie-dla-mnie-odpowiedni)
+2. [Czym jest GNU/Linux i czy będzie dla mnie odpowiedni?](#czym-jest-gnulinux-i-czy-będzie-dla-mnie-odpowiedni)
 3. [Mity i Fakty](#mity-i-fakty)
 4. [Dystrybucje, wydania LTS, dystrybucja ciągłe i cykliczne](#dystrybucje-wydania-lts-dystrybucja-ciągłe-i-cykliczne)
-5. [Tworzenie Bootowalnego Pendrive'a](#tworzenie-bootowalnego-pendriva)
+5. [Tworzenie Bootowalnego Pendrive'a](#tworzenie-bootowalnego-pendrivea)
 6. [Instalacja i Testowanie](#instalacja-i-testowanie)
 7. [Konfiguracja Systemu](#konfiguracja-systemu)
-8. [Granie na GNU/Linuxie](#granie-na-linuxie)
+8. [Granie na GNU/Linuxie](#granie-na-gnulinuxie)
 9. [Słowniczek](#słowniczek)
 10. [Strony gdzie można znaleźć pomoc](#strony-fora-działy-i-tagi-związane-z-tematyką-linuxa-gdzie-możecie-znaleźć-pomoc)
 11. [Strony z zaawansowanymi materiałami do nauki](#strony-z-zaawansowanymi-materiałami-do-nauki)
