@@ -93,6 +93,7 @@ Potem klikamy na **Select target**, aby wybrać pendrive na który chcemy zrzuci
 
 Na koniec naciskamy **Flash** by rozpocząć proces wgrywania plików na pendriva.
 ![Screenshot_20190809_182443](https://user-images.githubusercontent.com/41945903/62882986-5e9f7100-bd33-11e9-825a-f4f8ccf9e3d5.png)
+
 ### Testowanie na maszynie wirtualna czy może na sprzęcie?
 Testowanie systemu może mieć miejsce na:
 * **Maszynie Wirtualnej** - System instalujemy, w programie typu VirtualBox, który umożliwia nam bezpieczne przetestowanie systemu.  
@@ -161,31 +162,39 @@ Po prawej stronie u góry znajduje się menu opcji Pulpitu w którym możemy cho
 ![Screenshot_20190812_190234](https://user-images.githubusercontent.com/41945903/62883195-c8b81600-bd33-11e9-8b3a-ff9405b76ffe.png)
 
 Mimo, że system jest już wstępnie skonfigurowany, to niektóre rzeczy według mnie wymagają zmiany
+
 #### Ciągłe pytanie o hasło do WiFi
 System z domyślnymi ustawieniami zapisze hasło do WiFi w Portfelu będącym menedżerem haseł. Przy każdym uruchomieniu systemu, będzie trzeba podać hasło do portfela celem uruchomienia WiFi. Hasło może być przechowywane poza portfelem co oszczędzi nam nerwów podczas kolejnej próby wpisywania hasła.
 Aby to zrobić należy uruchomić Aktywator Programów, wyszukać i uruchomić program **Połączenia**.
 Wybieramy z lewej strony połączenie WiFi o które nam chodzi, wtedy po prawej przechodzimy do zakładki **Zabezpieczenie Wi-Fi**, wpisujemy tam hasło i wybieramy opcję **Zachowaj dla wszystkich użytkowników (nieszyfrowane)**
 Zatwierdź to klikając OK.
 ![Screenshot_20190809_234417](https://user-images.githubusercontent.com/41945903/62883393-41b76d80-bd34-11e9-8401-50b051da5ca2.png)
+
 #### Ciemny Motyw
 Domyślny motyw jest dla mnie, jak i wielu zbyt jasny.
 Aby to zmienić należy uruchomić Aktywator Programów i wyszukać i uruchomić ustawienia systemowe.
 W zakładce *Wrażenia wzrokowe i dotykowe* wybieramy motyw **Ciemna bryza** i zatwierdzamy to za pomocą przycisku Zastosuj.
 Dodatkowo programy GTK wymagają aby zmienić również w zakładce **Wygląd Programów** -> **Wygląd aplikacji GNOME/GTK** ustawienia **Wygląd GTK2** i **Wygląd GTK3** na **Breeze-dark** oraz nieco niżej **Zestaw ikon** oraz **Zestaw Zapasowy** na **Ciemna Bryza**
+
 #### Jeden klik zamiast dwóch otwiera foldery/pliki
 Domyślnie jeden klik w przeciwieństwie do Windowsa i innych środowisk otwiera plik. Aby to zmienić należy przejść do zakładki w ustawieniach systemowych **Zachowanie Pulpitu** -> **Przestrzeń Robocza** i zaznaczyć opcję **Dwukrotne kliknięcie otwiera pliki i katalogi**
+
 #### Przywracanie okien po wyłączeniu komputera
 KDE Plasma przywraca sesję po ponownym uruchomieniu komputera, która to przywraca wszystkie okna sprzed restartu. Aby temu zapobiec, należy w ustawieniach w zakładce **Uruchamianie i wyłączanie** -> **Sesja pulpitu** zaznaczyć opcję w sekcji **Przy logowaniu** opcję **Rozpocznij pustą sesję**
 ![Screenshot_20190812_190738](https://user-images.githubusercontent.com/41945903/62883499-79261a00-bd34-11e9-9892-8700975a8840.png)
+
 #### Potwierdzanie wyjścia z systemu
 Domyślnie Plasma, po próbie zamknięcia lub wylogowania się z systemu, pokazuje 30-sekundowe okno, podczas gdy jest wyświetlone, możemy jeszcze zmienić decyzję.
 Aby je wyłączyć należy przejść do Ustawień systemowych i w zakładce **Uruchamianie i wyłączanie**->**Sesja pulpitu** odznaczyć opcję **Wylogowuj za potwierdzeniem** oraz zaznacz opcję **Wyłącz Komputer** w dziale **Przy Wychodzeniu**
+
 #### Niepełne wsparcie dla języka polskiego
 Aby dodać pełne wsparcie dla języka polskiego, należy w ustawieniach systemowych w zakładce **Ustawienia regionalne** -> **Język** dodać język polski, zatwierdzić zmiany oraz wylogować się//uruchomić ponownie komputera
+
 #### Instalacja Programów
 Aby zainstalować różne aplikacje, należy skorzystać z programu **Odkrywca**, który można znaleźć w Aktywatorze programów.
 Listę dostępnego darmowego oprogramowania znajdziesz tutaj [Rewelacyjne OpenSource](https://github.com/qarmin/Rewelacyjne-OpenSource)
 ![Screenshot_20190809_234417](https://user-images.githubusercontent.com/41945903/62883545-91963480-bd34-11e9-9ab0-114726e73c4f.png)
+
 #### Aktualizacja systemu i Programów
 Podstawą bezpiecznego systemu jest jego częste aktualizowanie.  
 W Linuxie aktualizacja systemu jest powiązana z aktualizacją programów, dzięki czemu nie będziemy posiadać niebezpiecznego nieaktualnego oprogramowania.  
@@ -195,16 +204,25 @@ Będziemy musieli podać hasło do konta, aby umożliwić instalacje pakietów.
 **UWAGA** - **Zalecane jest, aby uruchomić ponownie komputer po aktualizacji, aby uniknąć niepożądanych zachowań systemu.**  
 **UWAGA** - **Aktualizację systemu powinno się wykonywać co najmniej 1 raz w miesiącu(im częściej, tym lepiej)**
 ![Screenshot_20190810_091702](https://user-images.githubusercontent.com/41945903/62883565-9f4bba00-bd34-11e9-93d9-a58b3e1a5ecc.png)
+
 #### Sterowniki do karty graficznej
 Intel oraz AMD domyślnie posiadają sterowniki do swoich kart graficznych w bilbiotece graficznej Mesa, dostępnej domyślnie na większości dystrybucji, w tym w KDE Neon, których aktualizacja przebiega wraz z aktualizacją systemu.
 
 Do kart Nvidii również został przygotowany otwartoźródłowy sterownik **nouveau**, lecz poprzez szereg decyzji Nvidii, mających na celu zablokowanie jego rozwoju, **nouveau** nie nadaje się do codziennego użytku na nowszych kartach graficznych, dlatego trzeba posłużyć się zamkniętym sterownikiem.  
 Jego instalacja jest prosta, lecz wymaga otworzenia konsoli, którą można uruchomić z Aktywatora Programów lub za pomocą skrótu klawiszowego **CTRL + ALT + T**  
-//TODO
+
+Po otworzeniu okna z terminalem należy skopiować i wkleić następujące polecenia:
+
+**sudo apt install ubuntu-drivers**  
+**sudo ubuntu-drivers autoinstall**  
+
+Po pierwszym z nich będzie konieczne wpisanie hasła administratora.  
+Należy po tych wykonaniu tych poleceń uruchomić ponownie komputer aby zmiany zostały wprowadzone.
 
 ### Granie na Linuxie
 Granie na Linuxie niegdyś wymagało by gracz posiadał duże umiejętności aby zainstalować grę, która, jeśli się uruchamiała, działała często z niewielką wydajnością.  
 Te czasy się na szczęście minęły dzięki takim firmom jak AMD i Intel, które udostępniły otwartoźródłowe sterowniki do swoich kart graficznych i umożliwiły wprowadzanie do nich łatek przez zewnętrznych deweloperów, czy Valve oraz Codewavers tworzącymi narzędzia emulujące gry Windowsowe i ulepszającymi poszczególne komponenty kernela poprawiając osiągi gier.
+![Screenshot_20190813_113922](https://user-images.githubusercontent.com/41945903/62932046-b1266f00-bdbf-11e9-8549-c501aea10cd8.png)
 
 Najprostszym, niewymagającym żadnej wiedzy i najczęściej stosowanym rozwiązaniem jest zainstalowanie [Steama](https://store.steampowered.com/about/). Firma Valve bardzo przysłużyła się Linuxowej społeczności graczy, tworząc szereg narzędzi na czele z Protonem, umożliwiających w granie w gry przeznaczone na system Windows za pomocą jednego kliknięcia. Listę działających gier z użyciem tego narzędzia można [znaleźć tutaj](https://www.protondb.com/).
 
@@ -212,11 +230,12 @@ Do starszych lub niewymagających dużej mocy obliczeniowej gier zwykle nie potr
 
 W przypadku zainstalowania [Lutris](https://lutris.net/) do zarządzania grami, również potrzebna będzie instalacja Wine. Za jego pomocą, możemy prosto instalować zoptymalizowane wersje Wine, używać Esync poprawiającego wydajność gier czy DXVK umożliwianego uruchamianie gier DX11 z pomocą Vulkan API. Szczegółowe instrukcje [znajdują się tutaj](https://github.com/lutris/lutris/wiki)
 ![Screenshot_20190810_101842](https://user-images.githubusercontent.com/41945903/62883919-8a235b00-bd35-11e9-80ed-af615037b15c.png)
+
 ### Słowniczek
 * **Linux** - Kernel stworzony przez Linusa Torwaldsa. Odpowiedzialny jest za wszystkie zadania systemu operacyjnego.
 * **GNU/Linux** - Kernel Linuxa dystrybuowany z wolnym oprogramowaniem GNU
 * **Snap, Flatpak, Appimage** - Paczki z oprogramowaniem, zawierające w sobie niezbędne zależności dzięki temu będące niezależne od innych programów zainstalowanych w systemie.
-* **Terminal** - Program w którym można wydawać polecenia bez konieczności korzystania z graficznego interfejsu użytkownika
+* **Terminal/Konsola** - Program w którym można wydawać polecenia bez konieczności korzystania z graficznego interfejsu użytkownika
 * **System Operacyjny** - Oprogramowanie zarządzające fizycznymi elementami komputera, bez którego nie możnaby było uruchomić żadnych programów.
 * **Dystrybucja** - Jest to system operacyjny dystrybuowany z jądrem Linuxa, posiadający szereg wbudowanych programów.
 * **Lutris** - Program do zarządzania grami/aplikacjami, uproszczający używanie WINE, DXVK czy Esync.
@@ -231,6 +250,7 @@ W przypadku zainstalowania [Lutris](https://lutris.net/) do zarządzania grami, 
 
 ### Strony z zaawansowanymi materiałami do nauki
 * [Linux Jouney](https://www.linuxjourney.com)
+* [Poradnik linii komend w Ubuntu](https://tutorials.ubuntu.com/tutorial/command-line-for-beginners)
 
 ### Jak Pomóc?
 * **Udostępniaj** - Byłbym wdzięczny, gdybyś rozpowszechnił ją wśród znajomych, rodziny czy na Facebooku.
