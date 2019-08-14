@@ -220,7 +220,7 @@ Po otworzeniu okna z terminalem należy skopiować i wkleić następujące polec
 **sudo apt install ubuntu-drivers**  
 **sudo ubuntu-drivers autoinstall**  
 
-Po pierwszym z nich będzie konieczne wpisanie hasła administratora.  
+Po pierwszym z nich będzie konieczne będzie wpisanie hasła administratora(UWAGA, zazwyczaj podczas wpisywania haseł pojawiają się gwiazdki oznaczające wpisywane znaki, na Linuxie jednak w ramach zabezpieczenia, nie widać ich i może to być lekko mylące).  
 Należy po tych wykonaniu tych poleceń uruchomić ponownie komputer aby zmiany zostały wprowadzone.
 
 ### Granie na GNU/Linuxie
