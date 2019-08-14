@@ -237,7 +237,7 @@ W przypadku zainstalowania [Lutrisa](https://lutris.net/) do zarządzania grami,
 
 ### Sprzęt wspierający GNU/Linuxa
 * **Karty Graficzne** - Zintegrowane karty graficzne AMD i Intela oraz zwykłe dedykowane karty graficzne AMD, świetnie działają pod Linuxem, posiadają otwarte sterowniki oraz wspierają wiele otwartych technologii.  
-Karty graficzne Nvidii są odradzane, z powodu posiadania zamkniętych sterowników, które to sprawiają wiele problemów.
+Karty graficzne Nvidii są odradzane, z powodu posiadania zamkniętych sterowników, które to sprawiają wiele problemów w laptopach korzystających z Bumblebee(przełączanie między grafiką Intela a Nvidii). Również starsze sterowniki, używane w już nie wspieranych kartach graficznych, czasami po instalacji nowszej wersji kernela lub pakietów, uniemożliwijają uruchomienie systemu.
 * **Routery** - Domyślnie wiele routerów bazuje na linuxowym kernelu, lecz w wielu istnieje możliwość zainstalowania bezpiecznego i szybkiego systemu OpenWRT będącego linuxową dystrybucją. Wiele routerów od ASUS, D-Link, Linksys, Netgear, TP-Link oferuje możliwość jego zainstalowania, pełną tabelę [znajdziesz tutaj](https://openwrt.org/toh/start).
 * **Karty Sieciowe** - Wiele kart sieciowych firm takich jak Realtek, TP-Link, Mediatek, Intel czy Qualcomm, powinno świetnie działać tuż po wpięciu ich do komputera.
 * **Drukarki** - Bardzo dobrym wyborem będą drukarki i urządzenia wielofunkcyjne firm HP oraz Brother, oferujące sterowniki bardzo dobrej jakości. Prawdopodobnie produkty od firmy Epson powinny bez większych problemów działać pod Linuxem.
@@ -256,7 +256,7 @@ Karty graficzne Nvidii są odradzane, z powodu posiadania zamkniętych sterownik
 
 ### Strony, fora, działy i tagi związane z tematyką Linuxa gdzie możecie znaleźć pomoc
 * wykop.pl - [tag Linux](https://www.wykop.pl/tag/linux)
-* forum.dobreprogramy.pl - [kategoria GNU/Linux](https://forum.dobreprogramy.pl/c/oprogramowanie-komputerowe/gnu-linux)
+* forum.dobreprogramy.pl - [kategoria GNU/Linux](https://forum.dobreprogramy.pl/c/oprogramowanie-komputerowe/gnu-linux) oraz [długa lista przydatnych linków](https://forum.dobreprogramy.pl/t/linux-przydatne-linki-zaktualizowany-21-07-2018/571456)
 * forum.linux.pl - [forum Linux](https://forum.linux.pl/)
 * linuxiarze.pl - [forum Linuxiarze](https://linuxiarze.pl/forum/)
 * reddit.com - [subreddit Linux4Noobs](https://www.reddit.com/r/linux4noobs/)
