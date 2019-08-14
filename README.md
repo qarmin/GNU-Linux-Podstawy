@@ -9,10 +9,12 @@
 6. [Instalacja i Testowanie](#instalacja-i-testowanie)
 7. [Konfiguracja Systemu](#konfiguracja-systemu)
 8. [Granie na GNU/Linuxie](#granie-na-gnulinuxie)
-9. [Słowniczek](#słowniczek)
-10. [Strony gdzie można znaleźć pomoc](#strony-fora-działy-i-tagi-związane-z-tematyką-linuxa-gdzie-możecie-znaleźć-pomoc)
-11. [Strony z zaawansowanymi materiałami do nauki](#strony-z-zaawansowanymi-materiałami-do-nauki)
-12. [Jak Pomóc](#jak-pomóc)
+9. [Sprzęt wspierający GNU/Linuxa](#sprzęt-wspierający-gnulinuxa)
+10. [Słowniczek](#słowniczek)
+11. [Strony gdzie można znaleźć pomoc](#strony-fora-działy-i-tagi-związane-z-tematyką-linuxa-gdzie-możecie-znaleźć-pomoc)
+12. [Strony z zaawansowanymi materiałami do nauki](#strony-z-zaawansowanymi-materiałami-do-nauki)
+13. [Newsy o GNU/Linuxie](#newsy-o-gnulinuxie)
+14. [Jak Pomóc](#jak-pomóc)
 
 ![800px-Neon-logo svg](https://user-images.githubusercontent.com/41945903/62884778-a4f6cf00-bd37-11e9-8120-873955186520.png)
 
@@ -233,6 +235,13 @@ Do starszych lub niewymagających dużej mocy obliczeniowej gier zwykle nie potr
 W przypadku zainstalowania [Lutrisa](https://lutris.net/) do zarządzania grami, również potrzebna będzie instalacja Wine. Za jego pomocą, możemy prosto instalować zoptymalizowane wersje Wine, używać Esync poprawiającego wydajność gier czy DXVK umożliwianego uruchamianie gier DX11 z pomocą Vulkan API. Szczegółowe instrukcje [znajdują się tutaj](https://github.com/lutris/lutris/wiki)
 ![Screenshot_20190810_101842](https://user-images.githubusercontent.com/41945903/62883919-8a235b00-bd35-11e9-80ed-af615037b15c.png)
 
+### Sprzęt wspierający GNU/Linuxa
+* **Karty Graficzne** - Zintegrowane karty graficzne AMD i Intela oraz zwykłe dedykowane karty graficzne AMD, świetnie działają pod Linuxem, posiadają otwarte sterowniki oraz wspierają wiele otwartych technologii.  
+Karty graficzne Nvidii są odradzane, z powodu posiadania zamkniętych sterowników, które to sprawiają wiele problemów.
+* **Routery** - Domyślnie wiele routerów bazuje na linuxowym kernelu, lecz w wielu istnieje możliwość zainstalowania bezpiecznego i szybkiego systemu OpenWRT będącego linuxową dystrybucją. Wiele routerów od ASUS, D-Link, Linksys, Netgear, TP-Link oferuje możliwość jego zainstalowania, pełną tabelę [znajdziesz tutaj](https://openwrt.org/toh/start).
+* **Karty Sieciowe** - Wiele kart sieciowych firm takich jak Realtek, TP-Link, Mediatek, Intel czy Qualcomm, powinno świetnie działać tuż po wpięciu ich do komputera.
+
+
 ### Słowniczek
 * **Linux** - Kernel stworzony przez Linusa Torvaldsa. Nadzoruje wszystkie zadania systemu operacyjnego.
 * **GNU/Linux** - Kernel Linux dystrybuowany z wolnym systemem GNU
@@ -253,6 +262,13 @@ W przypadku zainstalowania [Lutrisa](https://lutris.net/) do zarządzania grami,
 ### Strony z zaawansowanymi materiałami do nauki
 * [Linux Jouney](https://www.linuxjourney.com)
 * [Poradnik linii komend w Ubuntu](https://tutorials.ubuntu.com/tutorial/command-line-for-beginners)
+
+### Newsy o GNU/Linuxie
+* [Phoronix](https://www.phoronix.com)
+* [OmgUbuntu](https://www.omgubuntu.co.uk)
+* [404 Przystajnik](https://404.g-net.pl)
+* [Linux Today](https://www.linuxtoday.com/)
+* [Gaming on Linux](https://www.gamingonlinux.com)
 
 ### Jak Pomóc?
 * **Udostępniaj** - Byłbym wdzięczny, gdybyś rozpowszechnił ją wśród znajomych, rodziny czy na Facebooku.
