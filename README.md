@@ -240,6 +240,7 @@ W przypadku zainstalowania [Lutrisa](https://lutris.net/) do zarządzania grami,
 Karty graficzne Nvidii są odradzane, z powodu posiadania zamkniętych sterowników, które to sprawiają wiele problemów.
 * **Routery** - Domyślnie wiele routerów bazuje na linuxowym kernelu, lecz w wielu istnieje możliwość zainstalowania bezpiecznego i szybkiego systemu OpenWRT będącego linuxową dystrybucją. Wiele routerów od ASUS, D-Link, Linksys, Netgear, TP-Link oferuje możliwość jego zainstalowania, pełną tabelę [znajdziesz tutaj](https://openwrt.org/toh/start).
 * **Karty Sieciowe** - Wiele kart sieciowych firm takich jak Realtek, TP-Link, Mediatek, Intel czy Qualcomm, powinno świetnie działać tuż po wpięciu ich do komputera.
+* **Drukarki** - Bardzo dobrym wyborem będą drukarki i urządzenia wielofunkcyjne firm HP oraz Brother, oferujące sterowniki bardzo dobrej jakości. Prawdopodobnie produkty od firmy Epson powinny bez większych problemów działać pod Linuxem.
 
 
 ### Słowniczek
@@ -258,6 +259,7 @@ Karty graficzne Nvidii są odradzane, z powodu posiadania zamkniętych sterownik
 * forum.dobreprogramy.pl - [kategoria GNU/Linux](https://forum.dobreprogramy.pl/c/oprogramowanie-komputerowe/gnu-linux)
 * forum.linux.pl - [forum Linux](https://forum.linux.pl/)
 * linuxiarze.pl - [forum Linuxiarze](https://linuxiarze.pl/forum/)
+* reddit.com - [subreddit Linux4Noobs](https://www.reddit.com/r/linux4noobs/)
 
 ### Strony z zaawansowanymi materiałami do nauki
 * [Linux Jouney](https://www.linuxjourney.com)
@@ -269,6 +271,7 @@ Karty graficzne Nvidii są odradzane, z powodu posiadania zamkniętych sterownik
 * [404 Przystajnik](https://404.g-net.pl)
 * [Linux Today](https://www.linuxtoday.com/)
 * [Gaming on Linux](https://www.gamingonlinux.com)
+* [Subreddit Linux](https://www.reddit.com/r/linux)
 
 ### Jak Pomóc?
 * **Udostępniaj** - Byłbym wdzięczny, gdybyś rozpowszechnił ją wśród znajomych, rodziny czy na Facebooku.
