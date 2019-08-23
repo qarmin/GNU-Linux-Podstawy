@@ -89,6 +89,7 @@ W świecie GNU/Linuxa panuje podział na dwa typy dystrybucji, ciągłe (zwane t
 ### Tworzenie Bootowalnego Pendrive'a
 W tej instrukcji posłużę się bardzo przyjazną dystrybucją dla początkujących i nie tylko - KDE Neon z pulpitem KDE Plasma 5 bazującym na Ubuntu 18.04.  
 Najnowszą dostępną wersję systemu należy [pobrać tutaj](https://files.kde.org/neon/images/user/current/neon-user-current.iso).
+W przypadku gdy komputer jest słabszy, polecam dystrybucję [Linux Mint Mate](mirror.onet.pl/pub/mirrors/linuxmint/isos/stable/19.2/linuxmint-19.2-mate-64bit.iso), której instalacja przebiega bardzo podobnie.
 
 Potrzebujemy przygotować pendrive'a o minimalnym rozmiarze 4GB, by można było uruchomić z niego system.  
 Część z systemów po wypakowaniu pliku ISO na pendrive'a powinna działać, lecz my dla pewności skorzystamy z programu [Etcher](https://www.balena.io/etcher/) obecnego na GNU/Linuxie, Windowsie i macOSie.
@@ -109,7 +110,9 @@ Minusem jednak jest konieczność posiadania wydajnego komputera, który umożli
 * **Na Sprzęcie** - System uruchamiamy z pendrive'a w trybie LiveCD, umożliwiającym nam dokładne przetestowanie systemu, bez konieczności jego instalacji. Przetestowanie kilku dystrybucji wymaga za każdym razem wrzucenia nowego obrazu na pendrive'a i ponownego uruchomienia systemu.
 
 ### Instalacja i Testowanie
-Po pierwsze musimy uruchomić system z pendrive'a, lecz sposób wejścia do Boot Menu jest zależny od posiadanej płyty głównej. Informacja ta powinna być podana na ekranie podczas włączania komputera, w instrukcji lub na stronie płyty głównej. Często są to klawisze F2, F8, F9, F10, F11, F12 czy ESC, więc można eksperymentować, aby znaleźć ich odpowiednią kombinację.  
+Po pierwsze musimy się upewnić, wchodząc do biosu, że mamy wyłączoną opcję **Secure Boot**.
+
+Następnie musimy uruchomić system z pendrive'a, lecz sposób wejścia do Boot Menu jest zależny od posiadanej płyty głównej. Informacja ta powinna być podana na ekranie podczas włączania komputera, w instrukcji lub na stronie płyty głównej. Często są to klawisze F2, F8, F9, F10, F11, F12 czy ESC, więc można eksperymentować, aby znaleźć ich odpowiednią kombinację.  
 Dostępnego menu menu wyboru wybieramy pendrive'a. W wypadku gdy na liście są dwa rekordy wybieramy ten z przydomkiem UEFI.
 
 Naszym oczom powinien ukazać się pulpit systemu KDE Neon.
@@ -256,7 +259,7 @@ Wielu producentów, zamiast płacenia Microsoftowi za licencję na Windowsa, wol
 Oto niektóre z bardziej znanych firm/urządzeń:
 * **System76** - Producent laptopów, komputerów i serwerów. W swoich produktach korzysta z systemu Pop!\_OS bazującym na wersji ostatniej wersji LTS Ubuntu. [Strona główna producenta.](https://system76.com/)
 * **Ubuntu** - Ubuntu nie tworzy własnych komputerów ani laptopów, lecz certyfikuje urządzenia producentów tj. Dell, Lenovo czy HP. Pełną listę można [znaleźć tutaj](https://certification.ubuntu.com/desktop/), a po kliknięciu na danego producenta, wyświetli się lista wszystkich wspieranych modeli.
-* **Purism** - Firma specjalizująca się w tworzeniu bezpiecznych laptopów. Tworzy również usługi do przechowywania plików w chmurze oraz sieci społecznościowe. Korzysta z otwartego Coreboot zamiast Biosu lub UEFI oraz własnego systemu PureOS bazowanego na Ubuntu LTS. [Strona główna producenta.](https://puri.sm/)
+* **Purism** - Firma specjalizująca się w tworzeniu bezpiecznych laptopów. Tworzy również usługi do przechowywania plików w chmurze oraz sieci społecznościowe. Korzysta z otwartego Coreboot zamiast Biosu lub UEFI oraz własnego systemu PureOS bazowanego na Debianie. [Strona główna producenta.](https://puri.sm/)
 * **KDE Slimbook** - Laptop stworzony przez twórców KDE, i używany do testowania środowiska KDE Plasma wraz innymi programami od KDE. [Strona główna laptopa.](https://kde.slimbook.es/)
 * **Pinebook** - Tani i niewielki laptop, stworzony do bardzo podstawowych zadań. [Strona główna laptopa.](https://www.pine64.org/pinebook/)
 * **Rasberry Pi** - Niewielki komputer jednopłytowy, często będący używany do nauki jako serwer plików, www czy stacja monitorująca. [Strona główna komputerka.](https://www.raspberrypi.org/)
@@ -277,6 +280,8 @@ Android, jest systemem posiadającym znacznie mniejszą funkcjonalność, niż k
 * **Repozytorium** - Jest to miejsce, gdzie znajdują się różne programy.
 * **PPA** - Są to repozytoria tworzone przez np. twórców aplikacji, by zapewnić użytkownikowi najnowszą wersję programów.
 * **Wine** - Oprogramowanie symulujące system Windows i pozwalające na uruchamianie programów przeznaczonych na ten system na GNU/Linuxie.
+* **Srodowisko** - Jest to powłoka graficzna systemu operacyjnego. Może posiadać różny wygląd oraz zapotrzebowanie na zasoby. Na słabsze komputery zalecane są takie powłoki jak Mate, LXQT, XFCE czy LXDE a na nieco mocniejsze komputery Plasma, Gnome czy Cinnamon.
+* **Coreboot** - otwarta implementacja biosu, jego zadaniem jest przygotowanie sprzętu dla systemu operacyjnego. Dostępny jest np. w Chromebookach, gdzie ważna jest szybkość i bezpieczeństwo.
 
 ### Strony, fora, działy i tagi związane z tematyką Linuxa gdzie możecie znaleźć pomoc
 * wykop.pl - [tag Linux](https://www.wykop.pl/tag/linux)
