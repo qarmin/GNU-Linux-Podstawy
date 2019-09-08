@@ -216,7 +216,7 @@ Będziemy musieli podać hasło do konta, aby umożliwić instalacje pakietów.
 
 Dostępna jest również możliwość aktualizacji systemu z poziomu konsoli, która nieco różni się od polecenia *apt* w Ubuntu:  
 **sudo pkcon refresh**  
-**sudo pkcon update**  
+**sudo pkcon update **  
 ![Screenshot](https://user-images.githubusercontent.com/41945903/62883565-9f4bba00-bd34-11e9-93d9-a58b3e1a5ecc.png)
 
 #### Sterowniki do karty graficznej
@@ -228,7 +228,7 @@ Jego instalacja jest prosta, lecz wymaga otworzenia konsoli, którą można uruc
 
 Po otworzeniu okna z terminalem należy skopiować i wkleić następujące polecenia:
 
-**sudo apt install ubuntu-drivers**  
+**sudo apt install ubuntu-drivers-common**  
 **sudo ubuntu-drivers autoinstall**  
 
 Po pierwszym z nich będzie konieczne będzie wpisanie hasła administratora(UWAGA, zazwyczaj podczas wpisywania haseł pojawiają się gwiazdki oznaczające wpisywane znaki, na Linuxie jednak w ramach zabezpieczenia, nie widać ich i może to być lekko mylące).  
