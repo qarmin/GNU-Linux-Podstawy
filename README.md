@@ -251,7 +251,7 @@ W przypadku zainstalowania [Lutrisa](https://lutris.net/) do zarządzania grami,
 Karty graficzne Nvidii są odradzane, z powodu posiadania zamkniętych sterowników, które to sprawiają wiele problemów w laptopach korzystających z Bumblebee(przełączanie między grafiką Intela a Nvidii). Również starsze sterowniki, używane w już nie wspieranych kartach graficznych, czasami po instalacji nowszej wersji kernela lub pakietów, uniemożliwijają uruchomienie systemu.
 * **Routery** - Domyślnie wiele routerów bazuje na linuxowym kernelu, lecz w wielu istnieje możliwość zainstalowania bezpiecznego i szybkiego systemu OpenWRT będącego linuxową dystrybucją. Wiele routerów od ASUS, D-Link, Linksys, Netgear, TP-Link oferuje możliwość jego zainstalowania, pełną tabelę [znajdziesz tutaj](https://openwrt.org/toh/start).
 * **Karty Sieciowe** - Wiele kart sieciowych firm takich jak Realtek, TP-Link, Mediatek, Intel czy Qualcomm, powinno świetnie działać tuż po wpięciu ich do komputera.
-* **Drukarki** - Bardzo dobrym wyborem będą drukarki i urządzenia wielofunkcyjne firm HP oraz Brother, oferujące sterowniki bardzo dobrej jakości. Prawdopodobnie produkty od firmy Epson powinny bez większych problemów działać pod Linuxem.
+* **Drukarki** - Bardzo dobrym wyborem będą drukarki i urządzenia wielofunkcyjne firm HP oraz Brother, oferujące sterowniki bardzo dobrej jakości. Prawdopodobnie produkty od firmy Epson powinny bez większych problemów działać pod Linuxem. Obszerniejszą listę podzieloną pomiędzy każdego producenta można [znaleźć tutaj.](https://www.openprinting.org/printers)
 
 ### Laptopy, Komputery i Telefony z GNU/Linuxem
 Wielu producentów, zamiast płacenia Microsoftowi za licencję na Windowsa, woli zapewnić wsparcie dla systemów z rodziny GNU/Linux. Każde z takich urządzeń jest testowane, dzięki czemu zawsze w razie problemów, możemy liczyć na łatki od producenta sprzętu.
@@ -281,7 +281,7 @@ Android, jest systemem posiadającym znacznie mniejszą funkcjonalność, niż k
 * **PPA** - Są to repozytoria tworzone przez np. twórców aplikacji, by zapewnić użytkownikowi najnowszą wersję programów.
 * **Wine** - Oprogramowanie symulujące system Windows i pozwalające na uruchamianie programów przeznaczonych na ten system na GNU/Linuxie.
 * **Srodowisko** - Jest to powłoka graficzna systemu operacyjnego. Może posiadać różny wygląd oraz zapotrzebowanie na zasoby. Na słabsze komputery zalecane są takie powłoki jak Mate, LXQT, XFCE czy LXDE a na nieco mocniejsze komputery Plasma, Gnome czy Cinnamon.
-* **Coreboot** - otwarta implementacja biosu, jego zadaniem jest przygotowanie sprzętu dla systemu operacyjnego. Dostępny jest np. w Chromebookach, gdzie ważna jest szybkość i bezpieczeństwo.
+* **Coreboot** - Otwarta implementacja biosu, jego zadaniem jest przygotowanie sprzętu dla systemu operacyjnego. Dostępny jest np. w Chromebookach, gdzie ważna jest szybkość i bezpieczeństwo.
 
 ### Strony, fora, działy i tagi związane z tematyką Linuxa gdzie możecie znaleźć pomoc
 * wykop.pl - [tag Linux](https://www.wykop.pl/tag/linux)
